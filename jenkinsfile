@@ -1,0 +1,12 @@
+node {
+
+    stage("ggg"){
+        git 'https://github.com/abdoufekkak/test22.git'
+    }
+    stage("gg"){
+        bat 'javac Fff.java'
+    }
+    stage("g"){
+        bat 'java Fff'
+    }
+}
